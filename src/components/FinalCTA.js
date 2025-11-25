@@ -1,0 +1,103 @@
+export default function FinalCTA() {
+    return (
+        <section id="cta" className="py-24 md:py-32 flex justify-center px-6">
+            <div className="container-albert">
+                <div className="relative mx-auto max-w-6xl rounded-[32px] bg-gradient-to-r from-[#0052FF] via-[#2563EB] to-[#3B82F6] text-white overflow-hidden shadow-[0_32px_80px_rgba(15,23,42,0.45)]">
+                    {/* Pattern overlay */}
+                    <div className="pointer-events-none absolute inset-0 opacity-40 mix-blend-soft-light">
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),transparent_60%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.18),transparent_55%)]" />
+                    </div>
+
+                    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 px-8 md:px-16 py-12 md:py-14 items-center">
+                        {/* Left: copy */}
+                        <div>
+                            <h2 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-normal leading-tight">
+                                Do less — and get more
+                                <br />
+                                from your money — with
+                                <br />
+                                <span className="font-normal">Genius.</span>
+                            </h2>
+                            <p className="max-w-md text-sm md:text-base text-white/90 mb-8">
+                                Genius identifies small amounts of money you can afford to set aside,
+                                and then moves that money to your savings account for you.
+                            </p>
+
+                            <button
+                                type="button"
+                                className="inline-flex items-center justify-center rounded-full border border-white px-7 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors duration-200"
+                            >
+                                Learn more
+                            </button>
+                        </div>
+
+                        {/* Right: mock UI card stack */}
+                        <div className="relative">
+                            {/* Genius icon pill */}
+                            <div className="mb-4 flex justify-end">
+                                <div className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/15 border border-white/20 backdrop-blur">
+                                    <span className="text-xl">⚡</span>
+                                </div>
+                            </div>
+
+                            <div className="space-y-3">
+                                {/* Top message card */}
+                                <div className="rounded-2xl bg-white/12 border border-white/25 px-4 py-3 text-[11px] leading-snug">
+                                    <p className="font-medium text-white">
+                                        This month&apos;s auto-allocation has been completed, here
+                                        are your balances:
+                                    </p>
+                                </div>
+
+                                {/* Primary funding source */}
+                                <div className="rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
+                                    <div className="flex flex-col">
+                                        <span className="text-white/70">Primary funding source</span>
+                                        <span className="mt-1 font-medium text-white">
+                      Third West Bank •••5135
+                    </span>
+                                    </div>
+                                    <span className="text-right font-medium">$9,543.40</span>
+                                </div>
+
+                                {/* Split rows */}
+                                <div className="flex flex-col gap-3 pl-6 mt-1">
+                                    {/* Savings */}
+                                    <div className="flex items-center gap-3">
+                                        <div className="flex items-center justify-center rounded-full bg-white text-[#0052FF] px-3 py-1 text-[11px] font-semibold shadow-md">
+                                            70%
+                                        </div>
+                                        <div className="flex-1 rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
+                                            <div className="flex flex-col">
+                                                <span className="text-white/65 text-[10px]">Savings</span>
+                                                <span className="mt-1 font-medium">Albert Savings</span>
+                                            </div>
+                                            <span className="font-medium">$8,848.20</span>
+                                        </div>
+                                    </div>
+
+                                    {/* Investing */}
+                                    <div className="flex items-center gap-3">
+                                        <div className="flex items-center justify-center rounded-full bg-white text-[#0052FF] px-3 py-1 text-[11px] font-semibold shadow-md">
+                                            30%
+                                        </div>
+                                        <div className="flex-1 rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
+                                            <div className="flex flex-col">
+                                                <span className="text-white/65 text-[10px]">Investing</span>
+                                                <span className="mt-1 font-medium">Albert Investing</span>
+                                            </div>
+                                            <span className="font-medium">$665.12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Glow behind cards */}
+                            <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[32px] bg-blue-300/30 blur-3xl" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
