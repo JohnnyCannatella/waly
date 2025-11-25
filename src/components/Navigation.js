@@ -27,7 +27,7 @@ export default function Navigation() {
             <nav
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
                     scrolled
-                        ? 'bg-white/95 backdrop-blur-xl shadow-[0_10px_30px_rgba(15,23,42,0.08)] border-b border-slate-100'
+                        ? 'bg-white/95 backdrop-blur-xl shadow-card-sm border-b border-slate-100'
                         : 'bg-transparent border-b border-transparent'
                 }`}
             >
@@ -74,11 +74,7 @@ export default function Navigation() {
                             {/* Registrati: bottone blu con shadow, shadow più forte on hover */}
                             <a
                                 href="#pricing"
-                                className={`inline-flex items-center rounded-full px-6 py-2.5 text-sm font-semibold shadow-sm transition-all duration-300 ${
-                                    scrolled
-                                        ? 'bg-[#3B82F6] text-white hover:bg-[#2563EB] hover:shadow-lg hover:-translate-y-px'
-                                        : 'bg-[#3B82F6] text-white hover:bg-[#2563EB] hover:shadow-lg hover:-translate-y-px'
-                                }`}
+                                className="inline-flex items-center rounded-full px-6 py-2.5 text-sm font-semibold shadow-sm transition-all duration-300 bg-primary-brand text-white hover:bg-[#0041CC] hover:shadow-lg hover:-translate-y-px"
                             >
                                 Registrati
                             </a>
@@ -133,7 +129,7 @@ export default function Navigation() {
 
                             <a
                                 href="#pricing"
-                                className="inline-flex w-full items-center justify-center rounded-full bg-[#3B82F6] px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#2563EB] transition-colors"
+                                className="inline-flex w-full items-center justify-center rounded-full bg-primary-brand px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0041CC] transition-colors"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Inizia gratis

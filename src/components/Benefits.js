@@ -2,18 +2,18 @@ export default function Benefits() {
     const miniCards = [
         {
             icon: '📊',
-            title: 'Auto categorization',
-            text: 'Smart categorization automatically categorizes your transactions.',
+            title: 'Categorizzazione automatica',
+            text: 'La categorizzazione smart organizza automaticamente le tue transazioni.',
         },
         {
             icon: '🧠',
-            title: 'Monitor spending',
-            text: 'Stay on top of your spending and monthly cash flow.',
+            title: 'Monitora le spese',
+            text: 'Tieni sotto controllo le tue spese e il flusso di cassa mensile.',
         },
         {
             icon: '📅',
-            title: 'Track bills and subscriptions',
-            text: 'We detect recurring bills and subscriptions, then help you lower or cancel them.',
+            title: 'Traccia bollette e abbonamenti',
+            text: 'Rileviamo bollette e abbonamenti ricorrenti, aiutandoti a ridurli o cancellarli.',
         },
     ];
 
@@ -23,18 +23,18 @@ export default function Benefits() {
                 {/* Header */}
                 <div className="text-center max-w-3xl mx-auto">
                     <h2 className="mb-4">
-                        Know where your <span className="text-primary-brand">money’s</span> going
+                        Sapere dove vanno i tuoi <span className="text-primary-brand">soldi</span>
                     </h2>
                     <p>
-                        Monitor your spending and cash flow, track your bills,
-                        and find savings.
+                        Monitora spese e flussi di cassa, tieni traccia delle bollette
+                        e trova nuove opportunità di risparmio.
                     </p>
                     <div className="mt-10">
                         <button
                             type="button"
                             className="inline-flex items-center justify-center rounded-full border border-slate-900 px-8 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-900 hover:text-white transition-colors duration-200"
                         >
-                            Learn more
+                            Scopri di più
                         </button>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Benefits() {
                         <div className="absolute -inset-x-32 -top-16 h-40 bg-gradient-to-r from-blue-400/40 via-indigo-200/50 to-blue-500/40 blur-3xl opacity-70 pointer-events-none" />
 
                         {/* Main dashboard card */}
-                        <div className="relative rounded-[32px] bg-gray-100/95 border border-gray-300 shadow-[0_28px_80px_rgba(15,23,42,0.12)] overflow-hidden">
+                        <div className="relative rounded-[32px] bg-white border border-gray-200 shadow-card-xl overflow-hidden">
                             {/* Qui metterai l'immagine principale del grafico */}
                             <img
                                 src="/images/benefits-dashboard.png"
@@ -57,7 +57,7 @@ export default function Benefits() {
 
                         {/* Floating card - left (in alto) */}
                         <div className="hidden md:block absolute -left-40 top-20 w-72">
-                            <div className="rounded-2xl bg-gray-100/95 shadow-[0_20px_60px_rgba(15,23,42,0.18)] border border-gray-300 p-4">
+                            <div className="rounded-2xl bg-white/95 backdrop-blur-sm shadow-card-lg border border-gray-200 p-4">
                                 <div className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-blue-100 text-primary-brand mb-3">
                                     {/* Icona / emoji personalizzabile */}
                                     <span role="img" aria-label="budget">📊</span>
@@ -72,8 +72,8 @@ export default function Benefits() {
                         </div>
 
                         {/* Floating card - right (in basso) */}
-                        <div className="hidden md:block absolute -right-30 bottom-30 w-72">
-                            <div className="rounded-2xl bg-gray-100/95 shadow-[0_20px_60px_rgba(15,23,42,0.18)] border border-gray-300 p-4 flex items-start gap-3">
+                        <div className="hidden lg:block absolute -right-24 bottom-20 w-72">
+                            <div className="rounded-2xl bg-white/95 backdrop-blur-sm shadow-card-lg border border-gray-200 p-4 flex items-start gap-3">
                                 <div className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-green-100 text-green-600 flex-shrink-0">
                                      <span role="img" aria-label="budget">✅</span>
                                 </div>
@@ -91,7 +91,7 @@ export default function Benefits() {
 
                         {/* Versione mobile delle card (stack sotto) */}
                         <div className="mt-8 grid gap-4 md:hidden">
-                            <div className="rounded-2xl bg-gray-100/95 shadow-[0_16px_40px_rgba(15,23,42,0.15)] border border-gray-300 p-4">
+                            <div className="rounded-2xl bg-white shadow-card-lg border border-gray-200 p-4">
                                 <div className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-blue-100 text-primary-brand mb-3">
                   <span role="img" aria-label="budget">
                     📊
@@ -105,7 +105,7 @@ export default function Benefits() {
                                 </p>
                             </div>
 
-                            <div className="rounded-2xl bg-white shadow-[0_16px_40px_rgba(15,23,42,0.15)] border border-gray-300 p-4 flex items-start gap-3">
+                            <div className="rounded-2xl bg-white shadow-card-lg border border-gray-200 p-4 flex items-start gap-3">
                                 <div className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-green-100 text-green-600 flex-shrink-0">
                   <span role="img" aria-label="budget">
                     ✅
@@ -133,7 +133,7 @@ export default function Benefits() {
                     {miniCards.map((card, index) => (
                         <div
                             key={index}
-                            className="rounded-2xl border border-gray-300 bg-gray-100/95 shadow-[0_10px_40px_rgba(15,23,42,0.08)] px-6 py-7"
+                            className="rounded-2xl border border-gray-200 bg-white shadow-card-md px-6 py-7"
                         >
                             <div className="mb-4 text-2xl">
                                 <span role="img" aria-hidden="true">

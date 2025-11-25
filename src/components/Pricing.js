@@ -74,8 +74,8 @@ export default function Pricing() {
                     {plans.map((plan) => (
                         <div
                             key={plan.name}
-                            className={`relative rounded-3xl bg-white border border-border-color px-6 py-7 md:px-7 md:py-8 shadow-[0_10px_40px_rgba(15,23,42,0.04)] transition-transform duration-200 ${
-                                plan.featured ? 'md:-translate-y-1 md:shadow-[0_18px_70px_rgba(15,23,42,0.12)]' : ''
+                            className={`relative rounded-[32px] bg-white border border-border-color px-6 py-7 md:px-7 md:py-8 shadow-card-md transition-transform duration-200 ${
+                                plan.featured ? 'md:-translate-y-1 md:shadow-card-xl' : ''
                             }`}
                         >
                             {/* Badge piano principale */}

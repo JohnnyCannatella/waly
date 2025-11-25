@@ -64,9 +64,9 @@ export default function Features() {
                 {/* Heading + tabs + testo */}
                 <div className="text-center mb-16 md:mb-20">
                     <h2 className="mb-8">
-                        Albert sees your full
+                        Waly vede il quadro completo
                         <br />
-                        financial picture.
+                        delle tue finanze.
                     </h2>
 
                     {/* Tabs row */}
@@ -85,7 +85,7 @@ export default function Features() {
                                     }`}
                                 >
                                     {isActive && (
-                                        <span className="absolute inset-0 rounded-full bg-slate-100 shadow-[0_10px_25px_rgba(15,23,42,0.15)]" />
+                                        <span className="absolute inset-0 rounded-full bg-slate-100 shadow-card-lg" />
                                     )}
                                     <span className="relative flex items-center gap-1">
                                     <span className="text-base">{tab.icon}</span>
@@ -108,7 +108,7 @@ export default function Features() {
                         type="button"
                         className="inline-flex items-center justify-center rounded-full border border-slate-900 px-8 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-900 hover:text-white transition-colors duration-200"
                     >
-                        Learn more
+                        Scopri di più
                     </button>
                 </div>
 
@@ -116,7 +116,7 @@ export default function Features() {
                 <div className="mt-4 md:mt-8 flex justify-center">
                     <div className="relative w-full max-w-4xl">
                         {/* Desktop card */}
-                        <div className="rounded-[32px] bg-white shadow-[0_32px_90px_rgba(15,23,42,0.10)] overflow-hidden border border-gray-100">
+                        <div className="rounded-[32px] bg-white shadow-card-xl overflow-hidden border border-gray-100">
                             <img
                                 src={activeTab.imageDesktop}
                                 alt={`${activeTab.label} desktop`}
@@ -125,7 +125,7 @@ export default function Features() {
                         </div>
 
                         {/* Phone card */}
-                        <div className="absolute -right-4 md:-right-30 -bottom-6 md:-bottom-10 w-[27%] max-w-xs rounded-[36px] bg-white border border-gray-200 shadow-[0_32px_90px_rgba(15,23,42,0.22)] overflow-hidden">
+                        <div className="absolute -right-4 lg:-right-20 -bottom-6 md:-bottom-10 w-[27%] max-w-xs rounded-[32px] bg-white border border-gray-200 shadow-card-xl overflow-hidden">
                             <img
                                 src={activeTab.imageMobile}
                                 alt={`${activeTab.label} mobile`}

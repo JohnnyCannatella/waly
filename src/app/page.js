@@ -5,11 +5,11 @@ import Benefits from '@/components/Benefits';
 import Pricing from '@/components/Pricing';
 import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
-import Stats from "@/components/Stats";
+import Stats from '@/components/Stats';
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Navigation />
       <Hero />
       <Features />

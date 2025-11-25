@@ -2,7 +2,7 @@ export default function FinalCTA() {
     return (
         <section id="cta" className="py-24 md:py-32 flex justify-center px-6">
             <div className="container-albert">
-                <div className="relative mx-auto max-w-6xl rounded-[32px] bg-gradient-to-r from-[#0052FF] via-[#2563EB] to-[#3B82F6] text-white overflow-hidden shadow-[0_32px_80px_rgba(15,23,42,0.45)]">
+                <div className="relative mx-auto max-w-6xl rounded-[32px] bg-gradient-to-r from-[#0052FF] via-[#0041CC] to-[#003399] text-white overflow-hidden shadow-card-2xl">
                     {/* Pattern overlay */}
                     <div className="pointer-events-none absolute inset-0 opacity-40 mix-blend-soft-light">
                         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),transparent_60%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.18),transparent_55%)]" />
@@ -12,22 +12,22 @@ export default function FinalCTA() {
                         {/* Left: copy */}
                         <div>
                             <h2 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-normal leading-tight">
-                                Do less — and get more
+                                Fai di più — e ottieni
                                 <br />
-                                from your money — with
+                                risultati migliori — con
                                 <br />
-                                <span className="font-normal">Genius.</span>
+                                <span className="font-normal">Waly Smart.</span>
                             </h2>
                             <p className="max-w-md text-sm md:text-base text-white/90 mb-8">
-                                Genius identifies small amounts of money you can afford to set aside,
-                                and then moves that money to your savings account for you.
+                                Waly Smart analizza automaticamente i tuoi investimenti e ti suggerisce
+                                come ottimizzare l'allocazione per raggiungere i tuoi obiettivi finanziari.
                             </p>
 
                             <button
                                 type="button"
                                 className="inline-flex items-center justify-center rounded-full border border-white px-7 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors duration-200"
                             >
-                                Learn more
+                                Scopri di più
                             </button>
                         </div>
 
@@ -44,20 +44,20 @@ export default function FinalCTA() {
                                 {/* Top message card */}
                                 <div className="rounded-2xl bg-white/12 border border-white/25 px-4 py-3 text-[11px] leading-snug">
                                     <p className="font-medium text-white">
-                                        This month&apos;s auto-allocation has been completed, here
-                                        are your balances:
+                                        L&apos;allocazione automatica di questo mese è stata completata,
+                                        ecco i tuoi saldi:
                                     </p>
                                 </div>
 
                                 {/* Primary funding source */}
                                 <div className="rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
                                     <div className="flex flex-col">
-                                        <span className="text-white/70">Primary funding source</span>
+                                        <span className="text-white/70">Fonte principale</span>
                                         <span className="mt-1 font-medium text-white">
-                      Third West Bank •••5135
+                      Banca Intesa •••5135
                     </span>
                                     </div>
-                                    <span className="text-right font-medium">$9,543.40</span>
+                                    <span className="text-right font-medium">€9.543,40</span>
                                 </div>
 
                                 {/* Split rows */}
@@ -69,10 +69,10 @@ export default function FinalCTA() {
                                         </div>
                                         <div className="flex-1 rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
                                             <div className="flex flex-col">
-                                                <span className="text-white/65 text-[10px]">Savings</span>
-                                                <span className="mt-1 font-medium">Albert Savings</span>
+                                                <span className="text-white/65 text-[10px]">Risparmio</span>
+                                                <span className="mt-1 font-medium">Waly Savings</span>
                                             </div>
-                                            <span className="font-medium">$8,848.20</span>
+                                            <span className="font-medium">€8.848,20</span>
                                         </div>
                                     </div>
 
@@ -83,10 +83,10 @@ export default function FinalCTA() {
                                         </div>
                                         <div className="flex-1 rounded-2xl bg-white/10 border border-white/25 px-4 py-3 flex items-center justify-between text-[11px]">
                                             <div className="flex flex-col">
-                                                <span className="text-white/65 text-[10px]">Investing</span>
-                                                <span className="mt-1 font-medium">Albert Investing</span>
+                                                <span className="text-white/65 text-[10px]">Investimenti</span>
+                                                <span className="mt-1 font-medium">Waly Investing</span>
                                             </div>
-                                            <span className="font-medium">$665.12</span>
+                                            <span className="font-medium">€665,12</span>
                                         </div>
                                     </div>
                                 </div>

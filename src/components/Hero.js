@@ -21,12 +21,12 @@ export default function Hero() {
                  Introduciamo <span className="text-primary-brand">Waly</span>.
             </h2>
             <h2 className="mb-8">
-                Wealth Made Simple
+                Il tuo patrimonio, finalmente chiaro.
             </h2>
 
           {/* Subtitle */}
           <p className="max-w-xl mx-auto mb-12 font-medium">
-            Traccia, analizza e fai crescere il tuo patrimonio personale con la piattaforma completa per investitori.
+            Traccia investimenti, monitora conti e fai crescere il tuo patrimonio con la piattaforma completa per gestire il tuo denaro.
           </p>
 
           {/* CTA Button */}

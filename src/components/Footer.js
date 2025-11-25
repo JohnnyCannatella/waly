@@ -49,8 +49,8 @@ export default function Footer() {
                 </span>
                             </a>
                             <p className="max-w-sm text-sm text-dark-gray-1">
-                                La piattaforma per avere una visione chiara e completa del tuo denaro,
-                                proprio come su Albert.
+                                La piattaforma completa per tracciare investimenti, monitorare conti
+                                e far crescere il tuo patrimonio con semplicità.
                             </p>
                         </div>
 
